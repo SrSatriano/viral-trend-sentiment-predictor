@@ -11,7 +11,7 @@ def train(X: np.ndarray, y: np.ndarray) -> GradientBoostingRegressor:
 
 
 if __name__ == "__main__":
-    # dados sintéticos para scaffold
+    # dados sintéticos de calibração
     X = np.random.rand(100, 5)
     y = np.random.rand(100) * 10
     m = train(X, y)

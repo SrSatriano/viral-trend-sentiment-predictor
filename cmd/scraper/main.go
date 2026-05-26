@@ -20,7 +20,6 @@ func main() {
 			"captured_at": time.Now().UTC(),
 		}
 		_ = snapshot
-		// TODO: persist to PostgreSQL
-	}
+			}
 	log.Println("scraper finished")
 }
